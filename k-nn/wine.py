@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1e2LmnJegjzskBmQ0JWNtSn3WKsJCSAEh
 """
 
-import pandas as pd
-import numpy as np
-import seaborn as sns
 
 """0. Wine Quality Dataset 🍷
 Dataset Link: Wine Quality on UCI
@@ -28,6 +25,10 @@ Preprocess the data and handle missing values.
 Find the best k value and metric.
 Report precision, recall, and confusion matrix.
 """
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
 
 df = wine_quality_df = pd.read_csv('/content/WineQT.csv')
 
